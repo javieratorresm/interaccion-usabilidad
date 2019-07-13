@@ -1,0 +1,62 @@
+@@keyframes opacidad {
+  0%{
+    opacity: 1;
+  }
+
+  80%{
+    opacity: .5;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+.flex-container {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    }
+
+    .blanco{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: space-between;
+
+    }
+
+  .azul{
+    background-color: blue;
+    width: 100%;
+    color: white;
+    margin: auto;
+    padding: 8%;
+    height: 800px;
+  }
+  .azul img{
+    width: 10%;
+
+  }
+  .azul_sol{
+    animation: opacidad 4s ease-in-out 0s infinite;
+    
+  }
+
+.azul p {
+  animation: opacidad 4s ease-in-out 0s infinite;
+
+}
+
+  .people{
+    align-items: flex-end;
+  }
